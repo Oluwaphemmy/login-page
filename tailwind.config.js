@@ -13,6 +13,8 @@ module.exports = {
         sign: "#0465",
         or: "#838a9e",
         forget: "#0c6787",
+        svg: "#202842",
+        bg: "rgba(255, 255, 255, 0.85) ",
       },
       fontFamily: {
         mulish: ['"Mulish"', sans - serif],
