@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,700;1,500;1,700&family=Rokkitt:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/dist/style.css" />
     <title>login</title>
   </head>
@@ -14,33 +20,42 @@
       <!--white bg-->
       <div class="bg-gray-200 h-fit w-fit md:rounded-l-sm rounded">
         <div class="m-10">
-          <p class="h-10 w-24 text-3xl font-bold leading-10">Log In</p>
-          <p class="text-blue-800 h-12 font-normal text-base leading-6 mt-4">
+          <p
+            class="h-10 w-24 text-3xl font-bold font-rokit leading-10 text-login"
+          >
+            Log In
+          </p>
+          <p class="text-login h-12 font-normal text-base leading-6 mt-4">
             Log in to your account to upload or download <br />
             pictures, videos or music.
           </p>
           <input
             type="email"
             placeholder="enter your email address"
-            class="placeholder:text-blue-300 border-solid border-2 rounded-md border-gray-400 mt-6 p-3 md:w-96 w-72"
+            class="placeholder:text-placeholder border-solid border-2 rounded-md border-gray-400 mt-6 p-3 md:w-96 w-72"
           />
           <div class="flex sm:space-x-36 space-x-20 mt-5 items-center">
             <p
-              class="sm:w-32 w-20 sm:h-5 h-3 font-normal text-base leading-5 text-blue-500"
+              class="sm:w-32 w-20 sm:h-5 h-3 font-normal text-base leading-5 text-forget"
             >
               Forget Password
             </p>
             <button
-              class="bg-blue-700 p-2 sm:h-16 sm:w-36 w-12 h-8 font-bold rounded-md text-white text-sm hover:bg-blue-900"
+              class="bg-button p-2 sm:h-16 sm:w-36 w-12 h-8 font-bold rounded-md text-white text-sm hover:bg-blue-900"
             >
               Next
-            </button>
-          </div>
-          <hr class="w-96 border-2 border-solid border-gray-400 mt-6" />
-          <p class="text-gray-500 ml-32">or log in with</p>
+           
+              <!--button-->
+              <div>
 
-          <!--Social-->
-          <div class="flex md:space-x-36 space-x-10 items-center mt-5">
+              </button>
+            </div>
+            <hr class="w-96 border-2 border-solid border-gray-400 mt-6" />
+            <p class="text-or ml-32">or log in with</p>
+            
+            <!--Social-->
+            <div class="flex md:space-x-36 space-x-10 items-center mt-5">
+          
             <div
               class="flex space-x-5 items-center border-solid border-2 rounded-md border-gray-300 p-3"
             >
@@ -73,7 +88,7 @@
             class="mt-8 w-56 h-4 font-normal text-sm leading-4 m-auto text-black"
           >
             Dont have an accoun yet?
-            <a href="" class="text-blue-400">Sign up</a>
+            <a href="" class="text-sign">Sign up</a>
           </p>
         </div>
       </div>
