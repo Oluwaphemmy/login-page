@@ -17,7 +17,7 @@ module.exports = {
         bg: "rgba(255, 255, 255, 0.85) ",
       },
       fontFamily: {
-        mulish: ['"Mulish"', sans - serif],
+        mulish: ['"Mulish"', sans-serif],
         rokit: [' "Rokkitt" ', serif],
       },
     },
